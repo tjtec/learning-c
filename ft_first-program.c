@@ -35,7 +35,7 @@ void ft_putsting_beastup(char*str){
 int main(){ //jedes C programm braucht eine Main
 
     ft_putchar(38);
-    ft_putstring("Hallo welt was geeht.\n");
+    ft_putstring("\nHallo welt was geeht.\n");
     ft_flipstring("\nFlip.");
     ft_putsting_beastup("IT's AMAZING\n");
    // '\'' Backslash: Cancel caracter
