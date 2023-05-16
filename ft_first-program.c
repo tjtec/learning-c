@@ -31,13 +31,17 @@ void ft_putsting_beastup(char*str){
     while(str[i++]);
     write(1,str,i);
 }
+ft_randomshit(int i,int ca){
+    write(1,&ca,i);
+}
 
 int main(){ //jedes C programm braucht eine Main
 
     ft_putchar(38);
-    ft_putstring("\nHallo welt was geeht.\n");
-    ft_flipstring("\nFlip.");
+    ft_putstring("\nHallo welt was geeht.\n"); 
+    ft_flipstring("\nDieser Satz ist komplett verdreht!");
     ft_putsting_beastup("IT's AMAZING\n");
+    ft_randomshit(10000000,30);
    // '\'' Backslash: Cancel caracter
 } 
 //write() ist System call, ist eine funktion von Linux
